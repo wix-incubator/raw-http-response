@@ -7,4 +7,5 @@
     "types": ["jest", "node"],
     "declaration": true
   },
+  "exclude": [ "*.spec.ts" ]
 }
