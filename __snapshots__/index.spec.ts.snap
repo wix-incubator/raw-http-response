@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`builds a simple string response 1`] = `
+"HTTP/1.1 500 Internal Server Error
+Content-Type: text/plain
+
+Internal Server Error or whatevers!"
+`;
+
+exports[`builds an empty http response 1`] = `
+"HTTP/1.1 200 OK
+X-My-Header: Hello world!
+
+"
+`;

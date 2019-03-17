@@ -1,0 +1,26 @@
+{
+  "name": "raw-http-response",
+  "version": "1.0.0",
+  "description": "A small package that generates a raw HTTP response from an object",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "files": ["index.js", "index.d.ts"],
+  "keywords": ["http"],
+  "author": "Gal Schlezinger <galstar@spitfire.co.il>",
+  "license": "MIT",
+  "dependencies": {
+    "statuses": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.3",
+    "@types/statuses": "^1.5.0",
+    "jest": "^24.5.0",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
+  }
+}
